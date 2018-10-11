@@ -10,7 +10,7 @@ let getPostsList = async () => {
         }
     };
     try {
-        const response = await fetch(`http://5bb634f6695f8d001496c082.mockapi.io/api/posts`, options)
+        const response = await fetch(`https://5bb634f6695f8d001496c082.mockapi.io/api/posts`, options)
         const json = await response.json();
         // console.log(json)
         return json
